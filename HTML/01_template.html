@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+    Specifies the document type and to tell the web browser which version of HTML the page is written in.
+        - <!DOCTYPE> : tells the browser which version of HTML to use when rendering the page. 
+        - <!DOCTYPE html> : Tells the Browser to follow HTML5 Standards to render the page
+-->
+
+<html lang="en">
+    <!-- 
+        <html>: This is the root element of an HTML document. 
+            - It wraps all the content of the web page, including <head>, <body>, and other elements.
+
+        lang="en": The lang attribute specifies the language of the content within this HTML document. 
+            - In this case, en stands for English. 
+            - This attribute helps both browsers and search engines understand the language in which the page is written.
+    -->
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- 
+            <meta> tag: The <meta> tag is used to provide metadata about the HTML document [ to the Browser ], 
+                        such as the character set, author, description, and other meta information.
+
+            charset="UTF-8": The charset attribute specifies the character encoding to be used in the document. 
+                - UTF-8 is a character encoding that supports vast range of characters from different languages and symbols. 
+                - It is the most common encoding used for modern web pages.
+        -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 
+            name="viewport": This attribute specifies that the settings apply to the "viewport," 
+                    which is the visible area of a web page on a device's screen. 
+                    The viewport can vary in size depending on the device. EX: mobile phones, tablets, and desktops.
+
+            content="width=device-width, initial-scale=1.0": The content attribute contains two important settings:
+                width=device-width: sets the width of the viewport to be equal to the device's screen width.
+                initial-scale=1.0: This specifies the initial zoom level when the page is first loaded. 
+                        - A value of 1.0 means no zoom, so the page will be displayed at its natural size. 
+        -->
+
+        <title>Document</title>
+        <!-- Sets the Title of the Web Page -->
+
+    </head>
+
+    <body>
+        <h1>Hello World</h1>
+        <p>They Say "World runs at a Faster Pace", But in Theory, it runs on the same Speed</p>
+    </body>
+</html>
